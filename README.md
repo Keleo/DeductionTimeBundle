@@ -1,5 +1,11 @@
 # Deduction time plugin for Kimai
 
+Allows to configure activities as being a "deduction time".
+A deduction time means that the timesheet duration will be negative.
+
+Deduction times can be edited, but the negative duration is not used in the UI and not saved!
+
+It is always the calculated duration of `end - start`, which is then converted to its negative value.
 
 ## Installation
 
