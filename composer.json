@@ -18,7 +18,7 @@
     ],
     "extra": {
         "kimai": {
-            "require": "1.20",
+            "require": "1.27",
             "name": "DeductionTimeBundle"
         }
     },
