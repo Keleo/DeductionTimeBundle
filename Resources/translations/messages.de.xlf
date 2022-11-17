@@ -2,11 +2,11 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" target-language="de" datatype="plaintext" original="messages.en.xlf">
     <body>
-      <trans-unit id="rHsdfassdfd7H.bA" resname="deduction.label">
+      <trans-unit id="zc6XdUj" resname="deduction.label">
         <source>deduction.label</source>
         <target>Abzugszeit</target>
       </trans-unit>
-      <trans-unit id="rHsdfasd7H.bA" resname="deduction.help">
+      <trans-unit id="8uh0_wt" resname="deduction.help">
         <source>deduction.help</source>
         <target>Jeder Zeiteintrag wird als Abzugszeit angesehen und die errechnete Dauer wird ins negative umgekehrt</target>
       </trans-unit>
