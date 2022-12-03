@@ -22,17 +22,15 @@ final class DeductionTimeCalculator implements CalculatorInterface
             return;
         }
 
-        $meta = $record->getActivity()->getMetaFieldValue(DeductionTimeBundle::META_FIELD_DEDUCTION);
+        $meta = $record->getActivity()->getMetaField(DeductionTimeBundle::META_FIELD_DEDUCTION)?->getValue();;
 
-        if ($meta === null) {
+        if (!is_bool($meta) || $meta === false) {
             return;
         }
 
-        if ((bool) $meta === true) {
-            $duration = $record->getDuration(false);
-            if ($duration > 0) {
-                $record->setDuration($duration * -1);
-            }
+        $duration = $record->getDuration(false);
+        if ($duration > 0) {
+            $record->setDuration($duration * -1);
         }
     }
 
