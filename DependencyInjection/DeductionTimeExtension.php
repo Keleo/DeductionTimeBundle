@@ -17,13 +17,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 class DeductionTimeExtension extends Extension
 {
-    /**
-     * @param array $configs
-     * @param ContainerBuilder $container
-     * @return void
-     * @throws \Exception
-     */
-    public function load(array $configs, ContainerBuilder $container)
+    public function load(array $configs, ContainerBuilder $container): void
     {
         if ('test' === $container->getParameter('kernel.environment')) {
             return;

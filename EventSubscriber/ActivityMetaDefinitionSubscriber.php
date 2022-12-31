@@ -30,12 +30,12 @@ final class ActivityMetaDefinitionSubscriber implements EventSubscriberInterface
 
     public function onEvent(ActivityMetaDefinitionEvent $event): void
     {
-        $definition = (new ActivityMeta())
-            ->setLabel('deduction.label')
-            ->setOptions(['help' => 'deduction.help'])
-            ->setName(DeductionTimeBundle::META_FIELD_DEDUCTION)
-            ->setType(CheckboxType::class)
-            ->setIsVisible(true);
+        $definition = new ActivityMeta();
+        $definition->setLabel('deduction.label');
+        $definition->setOptions(['help' => 'deduction.help']);
+        $definition->setName(DeductionTimeBundle::META_FIELD_DEDUCTION);
+        $definition->setType(CheckboxType::class);
+        $definition->setIsVisible(true);
 
         $event->getEntity()->setMetaField($definition);
     }
