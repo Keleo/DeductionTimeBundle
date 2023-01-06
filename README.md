@@ -30,16 +30,12 @@ This plugin is compatible with the following Kimai releases:
 
 | Bundle version | Minimum Kimai version |
 |----------------|-----------------------|
-| 2.0            | 2.00.0                |
+| 2.0            | 2.0.0                 |
 | 1.0            | 1.27.0                |
 
 You find the most notable changes between the versions in the file [CHANGELOG.md](CHANGELOG.md).
 
-First clone it to your Kimai installation `plugins` directory:
-```bash
-cd var/plugins/
-git clone https://github.com/Keleo/DeductionTimeBundle.git
-```
+Download and extract the [compatible release](https://github.com/Keleo/DeductionTimeBundle/releases).
 
 The file structure needs to look like this afterwards:
 
