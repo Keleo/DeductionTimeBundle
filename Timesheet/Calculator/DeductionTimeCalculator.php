@@ -24,9 +24,10 @@ final class DeductionTimeCalculator implements CalculatorInterface
 
         $meta = $record->getActivity()->getMetaField(DeductionTimeBundle::META_FIELD_DEDUCTION)?->getValue();
 
-        if (!\is_bool($meta) || $meta === false) {
+        if (is_null($meta) || $meta === '0') {
             return;
         }
+
 
         $duration = $record->getDuration(false);
         if ($duration > 0) {
