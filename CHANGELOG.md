@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 2.0.1
+
+Compatibility: requires minimum Kimai 2.0
+
+- Fixed: field value can be of type string  
+
 ## Version 2.0
 
 Compatibility: requires minimum Kimai 2.0

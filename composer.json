@@ -3,7 +3,7 @@
     "description": "Configure certain activities as deduction time, resulting in negative durations for timesheets.",
     "homepage": "https://www.kimai.org/store/keleo-deduction-time-bundle.html",
     "type": "kimai-plugin",
-    "version": "2.0",
+    "version": "2.0.1",
     "keywords": [
         "kimai",
         "kimai-plugin"
