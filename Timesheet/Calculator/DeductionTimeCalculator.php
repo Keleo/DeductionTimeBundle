@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the DeductionTimeBundle for Kimai.
+ * This file is part of the "DeductionTimeBundle" for Kimai.
  * All rights reserved by Kevin Papst (www.keleo.de).
  *
  * For the full copyright and license information, please view the LICENSE
