@@ -16,7 +16,7 @@ use KimaiPlugin\DeductionTimeBundle\DeductionTimeBundle;
 
 final class DeductionTimeCalculator implements CalculatorInterface
 {
-    public function calculate(Timesheet $record, array $changeset): void
+    public function calculate(Timesheet $record): void
     {
         if ($record->getActivity() === null) {
             return;
