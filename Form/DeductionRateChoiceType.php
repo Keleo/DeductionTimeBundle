@@ -1,8 +1,8 @@
 <?php
 
 /*
- * This file is part of the "Enhanced invoicing bundle" for Kimai.
- * All rights reserved by Kevin Papst (www.kevinpapst.de).
+ * This file is part of the "DeductionTimeBundle" for Kimai.
+ * All rights reserved by Kevin Papst (www.keleo.de).
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,8 +10,6 @@
 
 namespace KimaiPlugin\DeductionTimeBundle\Form;
 
-use App\Export\Renderer\PDFRenderer;
-use App\Export\ServiceExport;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
