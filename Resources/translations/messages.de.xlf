@@ -2,13 +2,25 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" target-language="de" datatype="plaintext" original="messages.en.xlf">
     <body>
-      <trans-unit id="zc6XdUj" resname="deduction.label">
-        <source>deduction.label</source>
+      <trans-unit id="6cyD5gx" resname="deduction_time">
+        <source>deduction_time</source>
         <target>Abzugszeit</target>
       </trans-unit>
       <trans-unit id="8uh0_wt" resname="deduction.help">
         <source>deduction.help</source>
         <target>Jeder Zeiteintrag wird als Abzugszeit angesehen und die errechnete Dauer wird ins negative umgekehrt</target>
+      </trans-unit>
+      <trans-unit id="PC5Edo5" resname="deduction.rate_config">
+        <source>deduction.rate_config</source>
+        <target>Preise für Abzugszeiten</target>
+      </trans-unit>
+      <trans-unit id="y8Hhcfp" resname="deduction.rate_default">
+        <source>deduction.rate_default</source>
+        <target>Den Preis jedes Zeiteintrags unverändert lassen</target>
+      </trans-unit>
+      <trans-unit id="vOTCO93" resname="deduction.rate_negative">
+        <source>deduction.rate_negative</source>
+        <target>Der Satz jeden Eintrags wird negativ</target>
       </trans-unit>
     </body>
   </file>
