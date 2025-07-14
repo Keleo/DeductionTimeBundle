@@ -18,9 +18,6 @@ use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 
 final class ActivityMetaDefinitionSubscriber implements EventSubscriberInterface
 {
-    /**
-     * @return array<string, array<int, string|int>>
-     */
     public static function getSubscribedEvents(): array
     {
         return [
