@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 2.1.0
+
+Compatibility: requires minimum Kimai 2.0
+
+- New: configure if a deduction time should use normal or negative rates
+
 ## Version 2.0.1
 
 Compatibility: requires minimum Kimai 2.0

@@ -7,6 +7,8 @@ Deduction times can be edited, but the negative duration is not used in the UI a
 
 It is always the calculated duration of `end - start`, which is then converted to its negative value.
 
+There is a new system configuration, which defines how a rates are used for deduction times (see below). 
+
 ### Configure an activity
 
 When editing any activity, you will see a new checkbox `Deduction time`.
@@ -24,13 +26,24 @@ You could manually subtract breaks from every day OR you use this plugin.
 3. Use that new activity to record your employees break times, e.g. via calendar
 4. Safely export or invoice your times: due to the negative duration the break times will be subtracted from the attendance time
 
+### Handling rates
+
+Usually it is advised to configure a price of zero for everyone for deduction times.
+But if you apply a regular hourly rates, the plugin will by default use this result as rate.
+
+You can switch this behavior and let the plugin switch the calculated rate into its negative value, to match the negative duration.
+This behavior can be configured at System > Configuration > Deduction time:
+
+- Leave the price of each timesheet unchanged
+- The price of each timesheet becomes negative
+
 ## Installation
 
 This plugin is compatible with the following Kimai releases:
 
 | Bundle version | Minimum Kimai version |
 |----------------|-----------------------|
-| 2.0 - 2.0.1    | 2.0.0                 |
+| 2.0 - 2.1.0    | 2.0.0                 |
 | 1.0            | 1.27.0                |
 
 You find the most notable changes between the versions in the file [CHANGELOG.md](CHANGELOG.md).
