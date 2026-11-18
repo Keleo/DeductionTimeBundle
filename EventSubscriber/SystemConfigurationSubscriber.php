@@ -29,10 +29,10 @@ final class SystemConfigurationSubscriber implements EventSubscriberInterface
     {
         $event->addConfiguration(
             (new SystemConfiguration('deduction_time'))
-                // the section title is translated in "system-configuration" by default
-                ->setTranslationDomain('messages')
+                //->setTranslationDomain('messages')
                 ->setConfiguration([
                     (new Configuration('deduction.rate_config'))
+                        //->setTranslationDomain('messages')
                         ->setType(DeductionRateChoiceType::class),
                 ])
         );
