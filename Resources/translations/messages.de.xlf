@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="vOTCO93" resname="deduction.rate_negative">
         <source>deduction.rate_negative</source>
-        <target>Der Satz jeden Eintrags wird negativ</target>
+        <target>Der Preis jedes Zeiteintrags wird negativ</target>
       </trans-unit>
     </body>
   </file>
